@@ -6,7 +6,7 @@ for name in range(10):
     namelist.append(yourname)
 print("name of people end with 'a' or 'A'")
 for name in namelist:
-    if(name.lower().endswith('a')):
+    if(name[-1]=='a' or name[-1]=='A'):
         print(name)
     else:
         print()
